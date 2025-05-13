@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Info</title>
+</head>
+<body>
+    <h1>Travel Info & Useful Words</h1>
+    <form method="POST">
+        <input type="text" name="query" placeholder = "Search city, language, or currency">
+        <input type="submit" value ="Search">
+    </form>
+
+    {% if not data %}
+        <p>No results found.</p>
+    {% endif %}
+
+    {% for city, info in data.items() %}
+        <h2>{{city}}</h2>
+        <p>Language: {{info.language}}</p>
+        <p>Currency: {{info.currency}}</p>
+        <hr>
+    {%endfor%}
+</body>
+</html>
