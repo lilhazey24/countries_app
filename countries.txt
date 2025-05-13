@@ -1,0 +1,19 @@
+Paris: 
+Language: French 
+Currency: Euro 
+
+Beijing: 
+Language: Mandarin Chinese
+Currency: Yuan 
+ 
+Barcelona: 
+Language: Spanish
+Currency: Euro
+
+Busan:
+Language: Korean
+Currency: Won 
+
+Munich:
+Language: German
+Currency: Euro
